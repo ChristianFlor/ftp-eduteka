@@ -1,0 +1,42 @@
+.navbar {
+    height: 8vh;
+    padding: 2% 5%;
+}
+.navbar-nav span{
+    font-size: 18px!important;
+    font-weight: 500;
+}
+
+
+.color-nav {
+    background: var(--blanco) !important;
+}
+
+.color-blanco {
+    color: var(--blanco) !important;
+}
+
+.nav-link {
+    font-family: 'Roboto', sans-serif !important;
+    color: #606060 !important;
+}
+
+.active {
+    color: #2D3336 !important;
+}
+
+
+@media only screen and (max-width: 1281px){
+    .navbar-nav span{
+        font-size: 16px !important;
+    }
+    .size-nav-btn{
+        font-size: 16px !important;
+    }
+
+    .container{
+        max-width: 80% !important;
+    }
+    
+
+  }

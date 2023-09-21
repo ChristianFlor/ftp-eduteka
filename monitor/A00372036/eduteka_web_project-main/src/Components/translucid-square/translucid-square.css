@@ -1,0 +1,20 @@
+.translucid-square{
+    display: flex;
+    width: 60%;
+    height: 840px;
+    padding: 62px 82px 62px 60px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+    background: rgba(245, 245, 245, 0.66);
+}
+
+#square-highlight-text{
+    color: var(--main-color-lilac);
+}
+
+#square-highlight-text:hover{
+    color:var(--variable-color-lilac-400);
+}
+

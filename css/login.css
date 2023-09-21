@@ -1,0 +1,41 @@
+
+
+
+.cuadro-login{
+    padding: 15% 20%;
+    
+}
+
+.cuador-acciones{
+    padding: 1rem;
+    background-color: #F7F7F7;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.cuadro-registro{
+    padding: 2rem;
+    background-color: #EBEBEB;
+    border-radius: 0px 10px 10px 0px;
+}
+.oculto{
+    display: none;
+}
+.msj-alerta{
+    color: rgb(163, 7, 7);
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 730px) and (min-width: 340px) {
+    .cuadro-login{
+        padding: 5% 3%;
+        
+    }
+
+    .cuador-acciones{
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .cuadro-registro{
+        border-radius: 0px 0px 10px 10px;
+    }
+}

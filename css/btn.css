@@ -1,0 +1,423 @@
+
+#img-fondo {
+background: linear-gradient(-45deg, #F3F3F3, #F9F9F9, #BDBBBB, #C8C8C8);
+	background-size: 500% 500%;
+	animation: gradient 30s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.cuadro-gestor{
+
+    margin: 10% 15%;
+    background-color: var(--blancoProyecto);
+    border-radius: 10px;
+    padding-bottom: 10px;
+
+}
+  
+
+
+.etiqueta {
+    margin-bottom: -5px;
+    width: 30%;
+    margin-left: 70%;
+    padding-left: 5%;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    border-radius: 0px 10px 0px 0px;
+    color: #FAFAFA;
+    background-color: var(--moradoFooter);
+}
+
+
+.contenedor-opc {
+    margin: 10px auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.custom-switch {
+    display: inline;
+}
+
+.opc-tab-cel {
+    margin-right: 20px;
+}
+
+
+.border-redondo {
+    border-radius: 10px;
+}
+
+
+.card{
+    border: 1px solid var(--lineaMorado) !important;
+}
+
+.maximo-size {
+    height: 120px;
+    overflow: hidden;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+}
+
+.color-acento {
+    color: var(--verde);
+}
+
+.color-morado {
+    color: var(--morado) !important;
+}
+
+.espacio-5 {
+    margin-top: 5%;
+}
+
+.espacio-10 {
+    margin-top: 10%;
+}
+
+.size-imagen-avatar {
+    height: 32px;
+    width: 32px;
+}
+
+.centrar-horizonta {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.centrar-horizonta-lf{
+    display: flex;
+    align-items: center; 
+}
+
+.size-img-art {
+    width: 350px;
+    height: 200px;
+}
+
+
+.carousel-indicators li {
+    border: 1px solid;
+    border-radius: 30px;
+    width: 15px;
+    height: 15px;
+
+}
+
+.no-decoracion {
+    text-decoration: none;
+}
+
+.no-decoracion:hover {
+    text-decoration: none;
+}
+
+.h-linkedin:hover {
+    color: #0A66C2;
+}
+
+.h-youtube:hover {
+    color: #FF0000;
+}
+
+.h-facebook:hover {
+    color: #1B74E4;
+}
+
+.h-instagram:hover {
+    color: #7241EE;
+}
+
+.h-twitter:hover {
+    color: #00A7E7;
+}
+
+.ver-todos-linea {
+    text-decoration-line: underline;
+    color: #67dff7;
+}
+
+.pequeno {
+    display: none !important;
+}
+
+
+
+
+
+.btn-call-to-action {
+    color: #000;
+    background-color: #67dff7;
+    border-color: #33CCCC;
+}
+
+.btn-call-to-action:hover,
+.btn-call-to-action:focus,
+.btn-call-to-action:active,
+.btn-call-to-action.active,
+.open .dropdown-toggle.btn-call-to-action {
+    color: #000;
+    background-color: #67dff7;
+    border-color: #33CCCC;
+    text-decoration: none;
+}
+
+.btn-call-to-action:active,
+.btn-call-to-action.active,
+.open .dropdown-toggle.btn-call-to-action {
+    background-image: none;
+}
+
+.btn-call-to-action.disabled,
+.btn-call-to-action[disabled],
+fieldset[disabled] .btn-call-to-action,
+.btn-call-to-action.disabled:hover,
+.btn-call-to-action[disabled]:hover,
+fieldset[disabled] .btn-call-to-action:hover,
+.btn-call-to-action.disabled:focus,
+.btn-call-to-action[disabled]:focus,
+fieldset[disabled] .btn-call-to-action:focus,
+.btn-call-to-action.disabled:active,
+.btn-call-to-action[disabled]:active,
+fieldset[disabled] .btn-call-to-action:active,
+.btn-call-to-action.disabled.active,
+.btn-call-to-action[disabled].active,
+fieldset[disabled] .btn-call-to-action.active {
+    background-color: #3DD699;
+    border-color: #3ED699;
+}
+
+.btn-call-to-action .badge {
+    color: #3DD699;
+    background-color: var(--blanco);
+}
+
+
+.btn-morado { 
+    color: #ffffff; 
+    background-color: #7854CB; 
+    border-color: #7854CB; 
+  } 
+   
+  .btn-morado:hover, 
+  .btn-morado:focus, 
+  .btn-morado:active, 
+  .btn-morado.active, 
+  .open .dropdown-toggle.btn-morado { 
+    color: #ffffff; 
+    background-color: #5D3FA3; 
+    border-color: #7854CB; 
+  } 
+   
+  .btn-morado:active, 
+  .btn-morado.active, 
+  .open .dropdown-toggle.btn-morado { 
+    background-image: none; 
+  } 
+   
+  .btn-morado.disabled, 
+  .btn-morado[disabled], 
+  fieldset[disabled] .btn-morado, 
+  .btn-morado.disabled:hover, 
+  .btn-morado[disabled]:hover, 
+  fieldset[disabled] .btn-morado:hover, 
+  .btn-morado.disabled:focus, 
+  .btn-morado[disabled]:focus, 
+  fieldset[disabled] .btn-morado:focus, 
+  .btn-morado.disabled:active, 
+  .btn-morado[disabled]:active, 
+  fieldset[disabled] .btn-morado:active, 
+  .btn-morado.disabled.active, 
+  .btn-morado[disabled].active, 
+  fieldset[disabled] .btn-morado.active { 
+    background-color: #7854CB; 
+    border-color: #7854CB; 
+  } 
+   
+  .btn-morado .badge { 
+    color: #7854CB; 
+    background-color: #ffffff; 
+  }
+
+
+  .btn-morado-lineas { 
+    color: #7854CB; 
+    background-color: #F7F7F7; 
+    border-color: #7854CB; 
+  } 
+   
+  .btn-morado-lineas:hover, 
+  .btn-morado-lineas:focus, 
+  .btn-morado-lineas:active, 
+  .btn-morado-lineas.active, 
+  .open .dropdown-toggle.btn-morado-lineas { 
+    color: #7854CB; 
+    background-color: #DDC9F7; 
+    border-color: #7854CB; 
+  } 
+   
+  .btn-morado-lineas:active, 
+  .btn-morado-lineas.active, 
+  .open .dropdown-toggle.btn-morado-lineas { 
+    background-image: none; 
+  } 
+   
+  .btn-morado-lineas.disabled, 
+  .btn-morado-lineas[disabled], 
+  fieldset[disabled] .btn-morado-lineas, 
+  .btn-morado-lineas.disabled:hover, 
+  .btn-morado-lineas[disabled]:hover, 
+  fieldset[disabled] .btn-morado-lineas:hover, 
+  .btn-morado-lineas.disabled:focus, 
+  .btn-morado-lineas[disabled]:focus, 
+  fieldset[disabled] .btn-morado-lineas:focus, 
+  .btn-morado-lineas.disabled:active, 
+  .btn-morado-lineas[disabled]:active, 
+  fieldset[disabled] .btn-morado-lineas:active, 
+  .btn-morado-lineas.disabled.active, 
+  .btn-morado-lineas[disabled].active, 
+  fieldset[disabled] .btn-morado-lineas.active { 
+    background-color: #F7F7F7; 
+    border-color: #7854CB; 
+  } 
+   
+  .btn-morado-lineas .badge { 
+    color: #F7F7F7; 
+    background-color: #7854CB; 
+  }
+
+
+  .btn-facebook { 
+    color: #ffffff; 
+    background-color: #3B5998; 
+    border-color: #3B5998; 
+  } 
+   
+  .btn-facebook:hover, 
+  .btn-facebook:focus, 
+  .btn-facebook:active, 
+  .btn-facebook.active, 
+  .open .dropdown-toggle.btn-facebook { 
+    color: #ffffff; 
+    background-color: #104DCF; 
+    border-color: #3B5998; 
+  } 
+   
+  .btn-facebook:active, 
+  .btn-facebook.active, 
+  .open .dropdown-toggle.btn-facebook { 
+    background-image: none; 
+  } 
+   
+  .btn-facebook.disabled, 
+  .btn-facebook[disabled], 
+  fieldset[disabled] .btn-facebook, 
+  .btn-facebook.disabled:hover, 
+  .btn-facebook[disabled]:hover, 
+  fieldset[disabled] .btn-facebook:hover, 
+  .btn-facebook.disabled:focus, 
+  .btn-facebook[disabled]:focus, 
+  fieldset[disabled] .btn-facebook:focus, 
+  .btn-facebook.disabled:active, 
+  .btn-facebook[disabled]:active, 
+  fieldset[disabled] .btn-facebook:active, 
+  .btn-facebook.disabled.active, 
+  .btn-facebook[disabled].active, 
+  fieldset[disabled] .btn-facebook.active { 
+    background-color: #3B5998; 
+    border-color: #3B5998; 
+  } 
+   
+  .btn-facebook .badge { 
+    color: #3B5998; 
+    background-color: #ffffff; 
+  }
+
+
+
+
+  .btn-google-rojo { 
+    color: #FFFFFF; 
+    background-color: #DB4A39; 
+    border-color: #DB4A39; 
+  } 
+   
+  .btn-google-rojo:hover, 
+  .btn-google-rojo:focus, 
+  .btn-google-rojo:active, 
+  .btn-google-rojo.active, 
+  .open .dropdown-toggle.btn-google-rojo { 
+    color: #FFFFFF; 
+    background-color: #F22913; 
+    border-color: #DB4A39; 
+  } 
+   
+  .btn-google-rojo:active, 
+  .btn-google-rojo.active, 
+  .open .dropdown-toggle.btn-google-rojo { 
+    background-image: none; 
+  } 
+   
+  .btn-google-rojo.disabled, 
+  .btn-google-rojo[disabled], 
+  fieldset[disabled] .btn-google-rojo, 
+  .btn-google-rojo.disabled:hover, 
+  .btn-google-rojo[disabled]:hover, 
+  fieldset[disabled] .btn-google-rojo:hover, 
+  .btn-google-rojo.disabled:focus, 
+  .btn-google-rojo[disabled]:focus, 
+  fieldset[disabled] .btn-google-rojo:focus, 
+  .btn-google-rojo.disabled:active, 
+  .btn-google-rojo[disabled]:active, 
+  fieldset[disabled] .btn-google-rojo:active, 
+  .btn-google-rojo.disabled.active, 
+  .btn-google-rojo[disabled].active, 
+  fieldset[disabled] .btn-google-rojo.active { 
+    background-color: #DB4A39; 
+    border-color: #DB4A39; 
+  } 
+   
+  .btn-google-rojo .badge { 
+    color: #DB4A39; 
+    background-color: #FFFFFF; 
+  }
+
+  
+  .card{
+    border-radius: 10px !important;
+  }
+
+
+  .progress-bar{
+    background-color: #7854CB !important;
+}
+
+  
+@media only screen and (max-width: 730px) and (min-width: 340px) {
+
+    .cuadro-gestor{
+        margin: 10% 0%;
+        
+    }
+
+}

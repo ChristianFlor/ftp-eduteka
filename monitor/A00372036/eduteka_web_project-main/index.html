@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EdutekaLab: Herramientas educativas enriquecidas con IA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="icon" href="https://edtk.co/favicon.ico">
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+</head>
+<body>
+    <edu-header></edu-header>
+    <main>
+        <article id="bienvenido">
+            <translucid-square title="¡Bienvenidos a" highlighttitle="EdutekaLab!" textbody="Conoce recursos educativos, materiales
+            didácticos y herramientas tecnológicas" textbtn="¡Regístrate!"></translucid-square>
+        </article>
+        <article id="sobre-nosotros">
+            <img src="./src/images/cbbad08deacb647f87e4a10bcef68635.jpg" alt="">
+            <div id="text-container">
+                <h2 class="rob-heading2">Conoce EdutekaLab</h2>
+                <p class="rob-body">Herramientas educativas enriquecidas con IA. Crea proyectos personalizados en minutos con IDEA, crea cursos con PLANEO y evalúa con precisión usando RUBRIK. Gratuitas y
+                    fáciles de usar, solo necesitas una cuenta de Google. Ahorra tiempo, guía a tus estudiantes
+                    y crea ambientes de aprendizaje efectivos. Únete a EdutekaLab para potenciar tu
+                    enseñanza. Regístrate hoy mismo y descubre el futuro de la educación. </p>
+            </div>
+        </article>
+        <article id="herramientas">
+            <card-element logo="/src/images/idea.png" subtitle="Crea tus proyectos de Clase" 
+            text="Utiliza la inteligencia artificial para crear proyectos de clase personalizados en pocos minutos. Permite elegir entre diferentes metodologías, editar y comparte tu proyecto." 
+            image="/src/images/99133dcade24c8d0912ebb28b8b25a95.jpg"></card-element>
+            <card-element logo="/src/images/rubik.png" subtitle="Crea tus Rúbricas." 
+            text="Crea rúbricas efectivas y personalizadas utilizando la IA. La herramienta te ayuda en la definición de objetivos de aprendizaje claros y en la creación de criterios de evaluación adecuados." 
+            image="/src/images/67b8dacef1baac7e31ebdf8d50b6d078.jpg"></card-element>
+            <card-element logo="/src/images/planeo.png" subtitle="Crea tu Curso" 
+            text="Planeo está diseñado para simplificar la creación de cursos, facilita la planificación y organización de cursos, garantizando una experiencia de enseñanza-aprendizaje estructurada y coherente." 
+            image="/src/images/7a900c0d2a92d6e071d0307c5c8bbebf.jpg"></card-element>
+            <card-element logo="/src/images/mitica.png" subtitle="Diagnostica tu Institución" 
+            text="Este Modelo de gestión para el uso pedagógico de las TIC, te ayudará a integrar las TIC en tu institución educativa. Dirigido directivos escolares." 
+            image="/src/images/07b5c4168095102b84a2012c6a907f2a.jpg"></card-element>
+        </article>
+        <dialog id="registration-form-modal">
+            <form id="registration-form" method="dialog">
+                <label for="name">Nombre completo: *</label><br>
+                <input class="form-control" type="text" id="name" name="name" required><br>
+                <label for="email">Tu email: *</label>
+                <input class="form-control"type="email" id="email" name="email" required><br>
+                <div>
+                    <label for="country">¿De qué país eres?</label><br>
+                    <select class="custom-select form-control" id="country">
+                        <option value="">Seleccionar una opción</option>
+                        <option value="colombia">Colombia</option>
+                        <option value="argentina">Argentina</option>
+                        <option value="bolivia">Bolivia</option>
+                        <option value="brasil">Brasil</option>
+                        <option value="chile">Chile</option>
+                        <option value="costa Rica">Costa Rica</option>
+                        <option value="cuba">Cuba</option>
+                        <option value="ecuador">Ecuador</option>
+                        <option value="el-salvador">El Salvador</option>
+                        <option value="guatemala">Guatemala</option>
+                        <option value="honduras">Honduras</option>
+                        <option value="méxico">México</option>
+                        <option value="nicaragua">Nicaragua</option>
+                        <option value="panamá">Panamá</option>
+                        <option value="paraguay">Paraguay</option>
+                        <option value="perú">Perú</option>
+                        <option value="república-dominicana">República Dominicana</option>
+                        <option value="uruguay">Uruguay</option>
+                        <option value="venezuela">Venezuela</option>
+                    </select><br>
+                </div>
+                <div>
+                    <label for="teaching-area">¿Qué enseñas?</label><br>
+                    <select class="custom-select form-control" id="teaching-area">
+                        <option value="">Seleccionar una opción</option>
+                        <option value="matemáticas">Matemáticas</option>
+                        <option value="ciencias-naturales">Ciencias Naturales</option>
+                        <option value="ciencias-sociales">Ciencias Sociales</option>
+                        <option value="historia">Historia</option>
+                        <option value="Literatura">Literatura</option>
+                        <option value="idiomas">Idiomas</option>
+                        <option value="artes">Artes</option>
+                        <option value="educación-física">Educación Física</option>
+                        <option value="informática">Informática</option>
+                        <option value="geografía">Geografía</option>
+                        <option value="música">Música</option>
+                    </select><br>
+                </div>
+                <label for="comentarios">¿Tienes algún comentario por agregar? (opcional)</label><br>
+                <textarea class="form-control"id="comentarios" rows="4" cols="50"></textarea><br>
+                <input class = "btn btn-primary" type="submit" value="Registrarme">
+                <button class = "btn btn-primary"id="close-registration-form">Cerrar</button>
+            </form>
+        </dialog>
+        
+        <dialog id="agradecer">
+            <h2 class="nun-heading2">Tu información ha sido enviada con éxito</h2>
+            <h2 class="nun-heading2">¡Gracias por registrarte!</h1>
+                <button class = "btn btn-primary"id="close-thanks">Cerrar</button>
+        </dialog>
+
+        <h1 class="rob-heading1">Heading 1</h1>
+        <h2 class ="rob-heading2">Heading 2</h2>
+        <h3 class="rob-heading3">Heading 3</h3>
+        <h4 class ="rob-subtitle">Subtitle</h4>
+        <p class="rob-boy">Body</p>
+        <h6 class="rob-caption">Caption</h6>
+    
+        <h1 class="nun-heading1">Heading 1</h1>
+        <h2 class ="nun-heading2">Heading 2</h2>
+        <h3 class="nun-heading3">Heading 3</h3>
+        <h4 class ="nun-subtitle">Subtitle</h4>
+        <p class="nun-body">Body</p>
+        <h6 class="nun-caption">Caption</h6>
+    </main>
+
+
+    <edu-footer></edu-footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script type="module" src="./src/importWebComponents.js"></script>
+    <script type ="module" src="./src/index.js"></script>
+</body>
+</body>
+</html>

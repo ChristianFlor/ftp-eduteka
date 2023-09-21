@@ -1,0 +1,16 @@
+{
+    "host": "ftp.edutekalab.co",
+    "username": "pruebas@edutekalab.co",
+    "password": "edutekaLab2023+",
+    "remotePath": "",
+    "protocol": "ftp",
+    "port": 21,
+    "fileNameEncoding": "utf8",
+    "autoUpload": true,
+    "autoDelete": false,
+    "autoDownload": false,
+    "ignore": [
+        ".git",
+        "/.vscode"
+    ]
+}

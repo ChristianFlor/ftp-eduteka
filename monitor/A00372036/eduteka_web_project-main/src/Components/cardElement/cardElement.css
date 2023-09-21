@@ -1,0 +1,45 @@
+#landing-card-container{
+    display: flex;
+    width: 500px;
+    height: 750px;
+    padding: 24px 26px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 21px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    align-items: flex-start;
+    background-color: var(--neutral-color-white);
+
+}
+
+.landing-card-image{
+    overflow: hidden;
+    border-radius: 24px;
+    width: 100%;
+    height: 300px;
+}
+
+
+.landing-card-image img{
+    max-width: 100%;
+    object-fit: cover;
+    transition: all 0.5s ease-in-out ;
+    
+}
+
+.landing-card-main-container img{
+    object-fit: contain;
+    width: 14.625rem;
+height: 3.834rem;
+flex-shrink: 0;
+}
+
+.landing-card-image img:hover{
+    transform: scale(1.1);
+}
+
+#card-subtitle{
+    color:var(--main-color-lilac);
+}

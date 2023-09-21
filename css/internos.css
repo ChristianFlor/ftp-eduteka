@@ -1,0 +1,23 @@
+.padding-cabecera{
+    padding-top: 6rem;
+}
+
+.principal-articulo{
+    height: 500px;
+    width: 500px;
+}
+
+.principal-articulo > img{
+    height: 100%;
+    width: 100%;
+
+}
+
+@media only screen and (max-width: 730px) and (min-width: 340px) {
+
+    .padding-cabecera{
+        padding-top: 50px;
+    }
+
+    
+}

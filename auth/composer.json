@@ -1,0 +1,30 @@
+{
+	"name": "opauth/opauth",
+	"description": "Multi-provider authentication framework for PHP",
+	"type": "library",
+	"keywords": ["authentication","auth","oauth","openid","omniauth","facebook","google","twitter"],
+	"homepage": "http://opauth.org",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "U-Zyn Chua",
+			"email": "chua@uzyn.com",
+			"homepage": "http://uzyn.com"
+		}
+	],
+	"require": {
+		"php": ">=5.2.0"
+	},
+	"suggest": {
+		"auth/facebook": "Allows Facebook authentication",
+		"auth/google": "Allows Google authentication",
+		"auth/twitter": "Allows Twitter authentication",
+		"auth/linkedin": "Allows LinkedIn authentication"
+	},
+	"autoload": {
+		"psr-0": { 
+			"": "lib/Opauth/",
+			"Opauth": "lib/"
+		}
+	}
+}
